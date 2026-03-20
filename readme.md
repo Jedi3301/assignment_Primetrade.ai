@@ -1,6 +1,6 @@
-# 📊 Trader Performance vs Market Sentiment Analysis
+#  Trader Performance vs Market Sentiment Analysis
 
-## 📌 Overview
+##  Overview
 
 This project explores how market sentiment (Fear vs Greed) influences trader behavior and performance on Hyperliquid. The goal was to identify patterns in trading activity and extract insights that could be useful for building smarter trading strategies.
 
@@ -8,7 +8,7 @@ The analysis combines historical trader data with Bitcoin market sentiment data 
 
 ---
 
-## 📁 Dataset Description
+##  Dataset Description
 
 ### 1. Market Sentiment Data
 - Contains daily classification of market sentiment (Fear, Greed, Extreme Fear, etc.)
@@ -24,7 +24,7 @@ Includes:
 
 ---
 
-## ⚙️ Data Preparation
+##  Data Preparation
 
 - Converted timestamps into a common **daily format**
 - Aligned both datasets using the `date` column
@@ -40,7 +40,7 @@ Includes:
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 ### 1. Market Sentiment Impacts Profitability
 - **Extreme Greed** showed the highest average PnL and win rate  
@@ -66,7 +66,7 @@ Includes:
 
 ---
 
-## 💡 Strategy Recommendations
+##  Strategy Recommendations
 
 - **Trend-follow during Extreme Greed**  
   → Higher win probability and profitability  
@@ -82,7 +82,7 @@ Includes:
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 The notebook includes:
 - PnL distribution across sentiment categories  
@@ -91,7 +91,7 @@ The notebook includes:
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 This analysis highlights how trader behavior shifts with market sentiment. Emotional states like Fear and Greed not only affect performance but also influence risk-taking and decision-making patterns.
 
@@ -99,7 +99,7 @@ Understanding these patterns can help design more adaptive and sentiment-aware t
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 pip install pandas matplotlib seaborn
